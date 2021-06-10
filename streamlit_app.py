@@ -31,7 +31,8 @@ def load_model():
     return net
 
 
-def predict(net,canvas_result):
+if st.button("predict"):
+    net = load_model()
 
     img = cv2.cvtColor(np.uint8(canvas_result.image_data), cv2.COLOR_RGBA2GRAY)
 
@@ -49,7 +50,6 @@ def predict(net,canvas_result):
 
     st.success("Predicted Class: {}, Confidence: {:.2f}%".format(classId, confidence*100.))
 
-net = load_model()
 
-predict(net,canvas_result)
+# predict(net,canvas_result)
 
