@@ -1,3 +1,4 @@
-opencv-python
+numpy
 streamlit
+opencv-python-headless
 streamlit-drawable-canvas
