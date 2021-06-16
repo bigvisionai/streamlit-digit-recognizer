@@ -1,2 +1,1 @@
-# streamlit-digit-recognizer
-Digit Recognizer using OpenCV and Streamlit | OpenCV Weekly Webinar Series
+# OpenCV Weekly Webinar Series | Digit Recognizer using OpenCV and Streamlit
